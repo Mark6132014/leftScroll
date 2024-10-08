@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+            A webpage that you scroll to the left side
+        </title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h1>
+                    Just a normal webpage.
+                </h1>
+                <p>
+                    A unique webpage that lets you scroll to the left side!
+                </p>
+                <hr>
+                <h2>
+                    How to do it:
+                </h2>
+                <p>
+                    Type this in your CSS code:
+                </p>
+                <code id="scrollbar">html, body {
+                    <br>
+                    &nbsp;&nbsp;&nbsp;overflow: hidden;
+                    <br>
+                    }
+                    <br>
+                    .container {
+                        <br>
+                        &nbsp;&nbsp;&nbsp;transform: rotateY(180deg);
+                        <br>
+                        &nbsp;&nbsp;&nbsp;height: 100vh;
+                        <br>
+                        &nbsp;&nbsp;&nbsp;width: 100%;
+                        <br>
+                        &nbsp;&nbsp;&nbsp;overflow-y: scroll;
+                        <br>
+                        &nbsp;&nbsp;&nbsp;overflow-x: hidden;
+                        <br>
+                        &nbsp;&nbsp;&nbsp;position: fixed;
+                        <br>
+                        &nbsp;&nbsp;&nbsp;top: 0;
+                        <br>
+                        &nbsp;&nbsp;&nbsp;left: 0;
+                        <br>
+                    }
+                    <br>
+                    .container .content {
+                        <br>
+                        &nbsp;&nbsp;&nbsp;transform: rotateY(180deg);
+                        <br>
+                    }
+                </code>
+                <hr>
+                <h2>
+                    Why is it so cool?
+                </h2>
+                <p>
+                    Because this is a sooo... <span style="font-size: 1.5em;">Unique Styled Website!</span>
+                    <br>
+                    Browsers never made the scrollbar go to the left before... And now it does only on this website!
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
